@@ -1,2 +1,2 @@
 # AthabascaUniversity
-Athabasca University Msc Projects
+Athabasca University MSc Projects and Assignments

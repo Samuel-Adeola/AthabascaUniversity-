@@ -1,1 +1,225 @@
+ATHABASCA UNIVERSITY
+
+DESIGNING AN AUTONOMOUS CYBER DEFENSE ARCHITECTURE: A JAVA-BASED AGENTIC AI FRAMEWORK FOR SELF-LEARNING THREAT DETECTION, RESPONSE, AND POLICY ADAPTATION
+BY
+SAMUEL ADEOLA
+
+A essay submitted in partial fulfillment
+of the requirements for the degree of
+MASTER OF SCIENCE - COMPUTING AND
+INFORMATION SYSTEMS
+
+Athabasca, Alberta
+December, 2025
+
+
+© Samuel Adeola, 2025
+
+
+DEDICATION
+I dedicate this work to my family for their constant support, sacrifices, and inspiration. I further extend this dedication to my manager at MASC, whose leadership and mentorship have shaped my professional development and strengthened my commitment to excellence in cybersecurity.
+
+
+## ACKNOWLEDGEMENTS
+I would like to express my sincere gratitude to my academic supervisors and peers in the Master of Science in Information Systems and Computing program for their invaluable feedback, insights, and encouragement throughout the development of this research.
+
+
+## ABSTRACT
+The growing complexity and speed of modern cyberattacks now exceed the capacity of static rules and manual triage. Organizations are therefore exploring autonomous cyber defense systems capable of interpreting events, deciding, acting, and learning with minimal human intervention. Agentic Artificial Intelligence (agentic AI) provides the theoretical basis for such systems, enabling goal-directed reasoning, sequential planning, and adaptive policy refinement. This essay investigates a Java-based agentic AI architecture for self-learning threat detection, response, and policy adaptation. Drawing on contemporary work by IBM, Microsoft, and Oracle, and on academic research on reinforcement learning, it examines a layered design comprising an event interpretation layer, an autonomous decision layer, and a policy adaptation layer. Java’s concurrency model, strong security libraries, and increasing AI support (e.g., Java 25 enhancements) are analyzed as enabling technologies. A lightweight Java prototype illustrates agents that interpret events, choose defensive actions, and adjust internal policies using reward feedback. The essay concludes with technical and ethical considerations and directions for future Java-based autonomous defense research.
+
+
+
+
+
+
+
+## TABLE OF CONTENTS
+CHAPTER I – INTRODUCTION …………………………………………………….. 7 - 8
+1.1 Background  ………………………………………………………………………..…….
+1.2 Statement of Purpose  ……………………………………………………………………
+1.3 Research Problem  ……………………………………………………………………….
+
+CHAPTER II – REVIEW OF RELATED LITERATURE  ……………………………..
+2.1 Historical Background of Autonomous Cyber Defense  …………………………………
+2.2 Agentic AI and Reinforcement Learning Foundations  …………………………………
+2.3 Java-Based Autonomous System Implementations  …………………………………….
+2.4 Current Research and Existing Architectures  ………………………………………….
+
+CHAPTER III – METHODOLOGY  ……………………………………………………
+3.1 Conceptual Framework  …………………………………………………………………
+3.2 System Architecture  ……………………………………………………………………
+3.3 Agent Behavior Modeling  ………………………………………………………………
+3.4 Reinforcement Learning Design  ……………………………………………………….
+3.5 Prototype Implementation Using Java  …………………………………………………
+3.6 Example Code Fragments  ………………………………………………………………
+
+CHAPTER IV – ISSUES, CHALLENGES, AND TRENDS  ……………………………
+4.1 Technical Limitations  ……………………………………………………………………
+4.2 Ethical and Security Risks  ………………………………………………………………
+4.3 Integration Challenges  …………………………………………………………………..
+4.4 Trends in Autonomous Cyber Defense  ………………………………………………….
+
+CHAPTER V – CONCLUSIONS AND RECOMMENDATIONS  ………………………
+5.1 Conclusions  ………………………………………………………………………..…….
+5.2 Recommendations for Future Work  ………………………………………………………
+REFERENCES  ………………………………………………………………………..…….
+APPENDIX A – Java Demo Program  ………………………………………………………
+
+
+
+
+
+
+
+
+
+
+
+
+## CHAPTER 1 - INTRODUCTION
+1.1 Background
+Modern cybersecurity environments are characterized by unprecedented complexity. Attackers employ automation, distributed infrastructures, polymorphic malware, and AI-assisted attack strategies. Defensive technologies, in contrast, often rely on static configurations, manually tuned rules, and periodic updates. Autonomous cyber defense seeks to address this mismatch by empowering security systems to operate with higher degrees of independence, adaptiveness, and computational intelligence.
+Agentic AI enables systems to make decisions, pursue goals, and refine policies through feedback. When embedded within cybersecurity tools, this capability allows defense agents to process events, learn patterns, and autonomously respond to threats. Java, a widely adopted language in enterprise systems, offers a stable and strongly typed environment suitable for constructing autonomous agents with modular behavior, event-driven logic, and reinforcement learning capabilities.
+This essay proposes a Java-based autonomous cyber defense architecture designed around an agentic AI model capable of self-learning.
+
+1.2 Statement of the Purpose
+The purpose of this essay is to propose and demonstrate a practical autonomous cyber defense architecture using a Java-based agentic AI design. The system concept integrates self-learning agents that interpret security events, select and execute defensive actions, and refine responses through feedback. This project highlights Java as a robust platform for implementing agent behavior, event-driven workflows, and adaptive policy modules within automated security operations, illustrating feasibility through a lightweight prototype.
+
+1.3 Research Problem
+Modern enterprises face adversaries who increasingly leverage AI and automation to scale attacks and adapt their techniques rapidly (Microsoft, 2025b). Static signatures, manually tuned SIEM rules, and traditional SOAR playbooks struggle to counter these adaptive threats in real time. As a result, vendors such as IBM and Microsoft are advancing agentic AI–driven models that emphasize autonomous investigation and response within security operations centers (IBM, 2025; Microsoft, 2025a).
+Despite this momentum, a gap remains between conceptual autonomous-defense designs and practical implementations that fit enterprise Java Virtual Machine (JVM) ecosystems. Many organizations rely heavily on Java-based services and long-term supported runtimes, yet much autonomous-defense research is demonstrated using experimental or non-enterprise tooling. The core challenge addressed in this essay is defining a practical Java-based architecture that supports real-time event interpretation, autonomous decision making, and adaptive policy updates while remaining governable and understandable.
+
+
+
+## CHAPTER II - REVIEW OF RELATED LITERATURE
+
+2.1 Related Work
+Autonomous cyber defense has evolved from classical intrusion detection systems (IDS) to multi-agent, self-learning architectures. Early self-learning IDS research used neural networks and self-organizing maps to detect anomalies beyond static signature-based rules (Chen, 2022). More recently, reinforcement learning for autonomous cyber defense has become an active research area, leveraging simulation environments to train agents that respond to advanced persistent threats (Miles et al., 2024; Symes Thompson, 2023).
+Multi-agent RL approaches have been proposed to coordinate multiple defending agents across networks using actor–critic and hierarchical strategies (Wang & Dechene, 2024; Singh et al., 2024). These studies show that RL-driven agents can learn non-trivial defense strategies that maintain higher fractions of clean hosts and reduce attacker success rates.
+
+2.2 Current Industry Research and Practice
+Industry vendors are converging on agentic AI for security operations:
+•	IBM introduced its Autonomous Threat Operations Machine (ATOM), a multi-agent system for triage, investigation, and remediation, advancing toward an autonomous SOC where AI executes meaningful responses with minimal human input (IBM, 2025; IBM, 2025b).
+•	Microsoft emphasizes AI as foundational in detection, correlation, and response, demonstrated through Microsoft Security Copilot and emerging generative AI security agents (Microsoft, 2024; Microsoft, 2025a).
+•	Oracle released the OCI AI Agent Platform and AI Agent Studio, promoting secure, governed AI agents deployed within Oracle Cloud, integrating access control and policy enforcement for enterprise-grade autonomy (Oracle, 2025b; Oracle, 2025c).
+Simultaneously, frameworks such as MITRE ATLAS provide structured knowledge of adversarial techniques against AI systems, helping organizations jointly address “AI for cybersecurity” and “cybersecurity for AI” (MITRE, 2024; Nightfall AI, 2024).
+
+2.3 Java as a Platform for Agentic Cyber Defense
+Java remains a dominant language for enterprise security services, SIEM integrations, message brokers, and microservices. Oracle’s release of Java 25 underscores investment in AI-enabling features, performance, and security, reinforcing Java’s suitability for autonomous defense (Oracle, 2025a). Key aspects include:
+•	Robust threading and concurrency (java.util.concurrent, virtual threads) supporting scalable, event-driven agents.
+•	Strong cryptographic libraries (JCA/JCE) enabling secure logging, integrity validation, and PKI-based trust.
+•	A module system (JPMS) that isolates sensitive components and reduces the attack surface.
+•	Mature network I/O and web frameworks (Jakarta EE, Spring) hosting REST APIs, event streams, and message-driven agents.
+Java-based autonomous monitoring and control frameworks have been explored in distributed security research (Krishnan, 2015; Kassimi, 2018), making Java a natural foundation for agentic cyber defense.
+
+
+## CHAPTER III - ARCHITECTURE AND PROTOTYPE DESIGN
+This chapter describes the conceptual architecture and the Java-based proof-of-concept prototype.
+
+3.1 Conceptual Architecture
+The proposed autonomous cyber defense architecture follows a layered design:
+1.	Event Interpretation Layer – Ingests raw telemetry (logs, alerts, network flows) and transforms them into structured security events (e.g., threat level, asset type, context).
+2.	Agentic Defense Layer – A set of Java agents responsible for perceiving events, selecting actions, and orchestrating defense workflows.
+3.	Adaptive Policy Layer – Maintains and updates policies using reward signals derived from outcomes (e.g., whether an action successfully stopped an attack or created an unnecessary disruption).
+The architecture is designed to support self-learning behavior: each cycle of perception–decision–action–feedback adjusts the agent’s internal policy, allowing it to refine strategies over time, consistent with RL principles (Arulkumaran et al., 2017; Huang & Zhu, 2019).
+
+3.2 Java-Based Agent Design
+3.2.1 Agent Abstraction
+In Java, an agent can be modeled as a class implementing an DefenseAgent interface:
+public interface DefenseAgent {
+    DefenseAction decide(DefenseEvent event);
+    void updatePolicy(DefenseEvent event, DefenseAction action, int reward);
+}
+A concrete implementation maintains a policy table or function mapping event features to action preferences. Java’s strong typing, object-oriented model, and interfaces enable multiple agent implementations (e.g., tabular, neural, rule-augmented) to be swapped without changing the rest of the system.
+3.2.2 Concurrency and Real-Time Events
+Java’s concurrency utilities (ExecutorService, ScheduledExecutorService) provide scalable threads for handling many simultaneous security events. For example, each incoming event from a Kafka topic or SIEM API can be processed by a worker that:
+1.	Parses the event into a DefenseEvent object.
+2.	Invokes agent.decide(event) to obtain an action.
+3.	Executes the action (e.g., call a firewall API, quarantine an endpoint).
+4.	Computes a reward (after some delay) and calls agent.updatePolicy(...).
+Virtual threads (Project Loom) in recent Java versions are auspicious because they enable large numbers of lightweight concurrent tasks ideal for agentic architectures that monitor thousands of endpoints with minimal overhead (Oracle, 2025a).
+3.2.3 Security and Policy Enforcement
+Java’s security APIs (JCA/JCE) support signed event logs to prevent telemetry poisoning, mutual TLS for secure communication with enforcement tools, and role-based access controls through frameworks such as Spring Security to ensure autonomous agents operate with least privilege. In production, the agentic AI layer would be subject to organizational controls aligned with the NIST AI Risk Management Framework and MITRE ATLAS threat models to reduce adversarial ML exposure (Miles et al., 2024; MITRE, 2024), strengthening both accountability and resilience.
+
+3.3 Reinforcement-Style Learning in Java
+The prototype in this essay uses a simple tabular policy update similar to a lightweight RL mechanism. For each threat level (state) and action, the agent maintains a score:
+double[][] policy; // [state][action]
+When a reward is received, the policy is updated: policy[state][action] += alpha * reward;
+where alpha is a learning rate. 
+Although this is less sophisticated than Q-learning or deep RL, it demonstrates core ideas of feedback-driven adaptation using only core Java constructs (arrays, loops, methods), making it easy to understand and extend. In more advanced systems, Java-based agents could integrate with RL frameworks (e.g., via JNI or Java ML libraries) and interface with cloud AI services like Oracle’s AI Data Platform or Microsoft’s AI security services (Oracle, 2025d; Microsoft, 2024).
+
+3.4 Prototype Description
+The AutonomousDefenseDemo program in Appendix A implements:
+•	A simplified event generator producing random LOW, MEDIUM, and HIGH threat events.
+•	An agent that selects actions (Alert, Block, Isolate) according to the current policy.
+•	A reward evaluator that approximates operational logic (e.g., blocking HIGH is rewarded, over-blocking LOW is penalized).
+•	A policy update function applying a small learning step each iteration.
+The program prints the event, chosen action, reward, and updated policy table on the console, providing a transparent demonstration of self-learning behavior.
+
+
+
+# CHAPTER IV - RESULTS, ISSUES, CHALLENGES, AND TRENDS
+4.1 Prototype Results and Discussion
+The prototype is intentionally lightweight and transparent: it generates LOW/MEDIUM/HIGH events, selects actions, applies a reward heuristic, and updates a simple policy structure. Across repeated iterations, the output demonstrates the core feedback loop (event → action → reward → policy update) that underpins autonomous cyber defense in reinforcement-learning literature, even though it does not attempt to model a full production SOC environment. 
+Observed behavior (what the console output shows):
+•	HIGH events are rewarded when “BLOCK” is chosen; MEDIUM events are rewarded when “ALERT” is chosen; LOW events are rewarded when “IGNORE” is chosen.
+•	Policy scores increase for rewarded actions and decrease for poor choices, illustrating how an agent can adapt decision preferences over time.
+Interpretation:
+This simple run is best interpreted as a proof of feasibility for implementing an agent loop and policy update mechanism in Java. In production, results would be evaluated using SOC-aligned metrics (e.g., false positive rate, containment time, analyst handoffs) and controlled testing to ensure safe automation. 
+
+4.2 Technical Challenges
+Scalability and latency remain significant concerns because enterprise networks generate millions of events daily, requiring millisecond-level decisions. Although Java offers strong concurrency and performance, tuning garbage collection, thread pools, and I/O for SOC-scale workloads is complex. Reward design also presents difficulty in cyber defense because outcomes are delayed and noisy; emerging research suggests using large language models to construct reward functions (Mukherjee et al., 2025), though such approaches are experimental. Finally, adversaries may poison training signals, a risk documented in MITRE ATLAS and adversarial ML research (MITRE, 2024; NIST, 2024), necessitating rigorous validation and testing in Java implementations.
+
+4.3 Security and Governance Challenges
+Autonomous AI agents may hallucinate or misinterpret instructions, risking unsafe actions in cyber defense (Microsoft, 2025a). Such mistakes could block legitimate traffic or fail to contain threats. IBM and Microsoft stress governance and auditability, requiring oversight and least privilege controls (IBM, 2025; Microsoft, 2025a). Java’s module system and IAM integration support guardrails, though policy misconfiguration remains a concern.
+
+4.4 Trends Toward Ambient and Multi-Agent Security
+Microsoft envisions ambient, autonomous, agent-aware security, where AI agents operate continuously to assess posture, detect weaknesses, and respond to threats (Microsoft, 2025a). IBM likewise highlights multi-agent orchestration frameworks such as ATOM for context gathering, investigation, and remediation (IBM, 2025b). In Java ecosystems, specialized defense microservices may coordinate through message queues and event streams while reinforcement learning services provide adaptive policies. As Oracle integrates AI agents into Fusion Applications and cloud platforms, Java-based autonomous defense will increasingly align with containerized, cloud-native architectures (Oracle, 2025c; 2025d).
+
+
+## CHAPTER V - ONCLUSIONS AND RECOMMENDATIONS
+This paper discusses the architectural design of autonomous cyber defense based on an agentic artificial intelligence core created in Java, using both scholarly and industrial sources to prove that A4I can use reinforcement learning to dynamically adjust its responses to emerging threats. It uses Java because it is secure and stable for coding event-driven reasoning, decision-making modules, and policy adaptation in enterprise environments. Only a stripped-down version is presented here that will show how an agent may interpret events, take defensive actions, and update its policies based on feedback received. The perception–decision–action–learning loop that simplified versions can encapsulate is fundamental for autonomous cyber defense.
+
+
+## References 
+Arulkumaran, K., Deisenroth, M., Brundage, M., & Bharath, A. (2017). Deep Reinforcement Learning: A Brief Survey. IEEE Signal Processing Magazine, Signal Processing Magazine, IEEE, IEEE Signal Process. Mag, 34(6), 26–38. https://0-doi-org.aupac.lib.athabascau.ca/10.1109/MSP.2017.2743240
+
+Chen, R. (2022). Design and Protection Strategy of Distributed Intrusion Detection System in Big Data Environment. Computational Intelligence & Neuroscience, 1–7. https://0-doi-org.aupac.lib.athabascau.ca/10.1155/2022/4720169
+
+Huang, L., & Zhu, Q. (2019). Strategic learning for active, adaptive, and autonomous cyber defense. https://arxiv.org/abs/1907.01396
+
+IBM. (2025). IBM delivers autonomous security operations with cutting-edge agentic AI. Retrieved from https://newsroom.ibm.com
+
+IBM. (2025b). Agentic AI enables an autonomous SOC. IBM Think. Retrieved from https://www.ibm.com/think
+
+Kassimi, D., Bahsani, S., & Benslimane, A. (2018). New approach for intrusion detection in big data as a service environment. Journal of Digital Information Management, 16(5), 255–265. Retrieved from https://www.dline.info/fpaper/jdim/v16i5/jdimv16i5_5.pdf?utm
+
+Microsoft. (2024). What is AI for cybersecurity? Microsoft Security. https://www.microsoft.com/en-us/security
+
+Microsoft. (2025a). Ambient and autonomous security for the agentic era. Microsoft Security Blog. https://www.microsoft.com/en-us/security/blog
+
+Microsoft. (2025b). 2025 digital defense report flags rising AI-driven threats. Microsoft Digital Defense Report (summary). Industrial Cyber
+
+MITRE. (2024). MITRE ATLAS™: Adversarial threat landscape for artificial-intelligence systems. MITRE. https://atlas.mitre.org
+
+Miles, I., Farmer, R., & Wolk, K. (2024). Reinforcement learning for autonomous resilient cyber defence. Frazer-Nash Consultancy. Retrieved from https://www.fnc.co.uk/media/mwcnckij/
+us-24-milesfarmer-reinforcementlearningforautonomousresilientcyberdefence-wp.pdf?utm
+
+Mukherjee, S., Chatterjee, S., Purvine, E., Fujimoto, T., & Emerson, T. (2025). Large language model-based reward design for deep reinforcement learning–driven autonomous cyber defense. https://doi.org/10.48550/arXiv.2511.16483
+
+Nightfall AI. (2024). MITRE ATLAS: The essential guide. Nightfall AI Security 101. https://www.nightfall.ai
+
+Oracle. (2025a). Oracle releases Java 25 with advanced AI and security features. Oracle News. https://www.oracle.com
+
+Oracle. (2025b). AI agent platform. Oracle Cloud Infrastructure. https://www.oracle.com/artificial-intelligence/generative-ai/agents
+
+Oracle. (2025c). Oracle introduces AI Agent Studio. Oracle News. https://www.oracle.com/news
+
+Oracle. (2025d). Oracle unveils AI data platform, empowering customers to innovate in the AI era. Oracle News. https://www.oracle.com/news
+
+Singh, A. V., Rathbun, E., Graham, E., Oakley, L., Oprea, A., & Chin, P. (2024). Hierarchical multi-agent reinforcement learning for cyber network defense. Retrieved from https://doi.org/10.48550/arXiv.2410.17351. 
+
+Isaac Symes Thompson, Alberto Caron, Chris Hicks, and Vasilios Mavroudis. 2024. Entity-based Reinforcement Learning for Autonomous Cyber Defence. In Proceedings of the Workshop on Autonomous Cybersecurity (AutonomousCyber '24). Association for Computing Machinery, New York, NY, USA, 56–67. https://0-doi-org.aupac.lib.athabascau.ca/10.1145/3689933.3690835
+
+Wang, M., & Dechene, R. (2024). Multi-agent actor-critics in autonomous cyber defense. https://doi.org/10.48550/arXiv.2410.09134
 

@@ -1,1 +1,417 @@
+COMP 605 ASSIGNMENT 2 REVIEW AND COMMENTS BY CLASSMATE
 
+GOVERNANCE AND SECURITY ACCOUNTABILITY CHALLENGES IN OUTSOURCED IDENTITY AND ACCESS MANAGEMENT PROJECTS: POLICY COMPLIANCE, 
+RISK MANAGEMENT, AND CONTINUOUS MONITORING IMPLICATIONS
+
+
+
+Comment and Question by MuM:
+Great presentation! From your presentation, I had one question pop up in my mind, how do organizations keep their governance 
+processes running smoothly when moving IAM operations to a new vendor or moving them back in-house? What governance mechanisms 
+and controls do you recommend during this transition to provide accountability and reduce risk exposure?
+
+My response to MuM:
+Thank you, Muskan, for your thoughtful question. I believe transitioning IAM services to a new vendor or bringing them back 
+in-house is one of the highest-risk phases of an outsourced IAM project because organizations are transferring not only 
+technology but also operational responsibility, institutional knowledge, and governance processes.
+
+From my perspective, maintaining governance during this transition requires a structured project management approach. Before 
+the transition begins, organizations should conduct a comprehensive risk assessment, identify critical identities and 
+privileged accounts, document ownership of IAM processes, and establish a clear governance framework that defines roles, 
+responsibilities, and decision-making authority. This ensures accountability is maintained throughout the transition rather 
+than being transferred informally.
+
+During the transition, I believe project managers should implement governance controls such as a RACI matrix, formal change 
+management, knowledge transfer sessions, regular governance review meetings, access validation, and a tested rollback plan. 
+Where appropriate, both the outgoing and incoming providers should operate under dual oversight to verify that security 
+controls remain effective and that business operations continue without disruption.
+
+Once the transition is complete, governance should continue through independent access reviews, removal of unnecessary vendor 
+privileges, compliance validation, and post-implementation audits. Organizations should also capture lessons learned to 
+strengthen future outsourcing initiatives.
+
+In my view, technology migration is only one part of a successful IAM transition. The real measure of success is the 
+organization's ability to maintain effective governance, clear accountability, and continuous oversight while minimizing 
+operational and security risks
+
+
+
+ 
+Comment and Question by SM:
+Thank you for sharing your presentation. I found your discussion on governance and security accountability in outsourced 
+Identity and Access Management (IAM) projects very insightful. As organizations increasingly rely on third-party vendors to 
+manage critical security services, maintaining clear governance, continuous monitoring, and accountability becomes essential 
+for reducing organizational risk.
+One point that stood out to me was your discussion of Zero Trust Architecture and continuous monitoring. While these 
+approaches strengthen security, they can also increase implementation complexity and project costs. In your opinion, how 
+should project managers balance stronger security controls with budget and schedule constraints, particularly in organizations 
+with limited cybersecurity resources?
+I was also interested in your discussion of vendor accountability. Beyond contractual agreements and service level agreements 
+(SLAs), do you think organizations should establish measurable security performance indicators—such as incident response time, 
+privileged access review completion, or compliance audit results—to continuously evaluate vendor performance throughout the 
+project lifecycle?
+Overall, your presentation highlights that successful IAM projects require not only strong technical solutions but also 
+effective governance, risk management, stakeholder communication, and ongoing oversight to ensure long-term security and 
+compliance.
+- SM
+
+My response to SM:
+HI Shinri, thank you for your thoughtful comments and insightful questions. I agree that implementing stronger security 
+controls can increase project complexity, particularly for organizations with limited cybersecurity resources.
+
+Rather than implementing every security control simultaneously, I believe project managers should prioritize controls based 
+on organizational risk, business objectives, and available resources. A phased implementation approach allows organizations 
+to introduce foundational controls, such as Multi-Factor Authentication (MFA), Role-Based Access Control (RBAC), and identity 
+lifecycle management, before expanding to more advanced capabilities, such as Zero Trust Architecture, Privileged Access 
+Management (PAM), and continuous monitoring. This enables project teams to strengthen security while remaining within budget 
+and schedule constraints, consistent with the Project Management Institute's recommendation to tailor project governance 
+according to organizational context and project complexity [1].
+
+I also agree that contracts and Service-Level Agreements (SLAs) should be complemented by measurable security performance 
+indicators. Metrics such as incident response time, privileged access review completion, access provisioning within SLA, 
+compliance audit results, and vulnerability remediation rates provide objective evidence that vendors are meeting their 
+security obligations. Continuous monitoring of these indicators enables project managers to identify risks early, evaluate 
+vendor performance, and make informed governance decisions throughout the project lifecycle, rather than relying solely on 
+periodic contract reviews [2].
+
+Ultimately, I believe effective outsourced IAM governance is achieved by balancing security with project delivery through 
+risk-based prioritization, measurable performance metrics, continuous monitoring, and strong vendor oversight. This 
+integrated approach strengthens accountability while supporting long-term organizational resilience.
+
+Thank you again for your excellent questions.
+
+References
+
+[1] Project Management Institute. 2021. A Guide to the Project Management Body of Knowledge (PMBOK® Guide), Seventh Edition.
+[2] National Institute of Standards and Technology (NIST). 2024. The NIST Cybersecurity Framework (CSF 2.0). https://doi.org/
+10.6028/NIST.CSWP.29
+
+
+
+Comment and Question by MM:
+Hi Samuel, I found your presentation insightful since it treats outsourced IAM as a governance and accountability issue, rather 
+than only a technical access-control issue. This relates well with Glöckler et al., who found that enterprise IAM requirements 
+fall into security and compliance, operability, technology, and user-related categories, and that even promising approaches 
+such as self-sovereign identity can support these requirements but cannot solve all IAM challenges on their own [1].
+Given Glöckler et al.’s finding that IAM challenges span security and compliance, operability, technology, and user concerns, 
+how can organizations translate these requirement categories into measurable vendor obligations, audit evidence, and continuous 
+monitoring practices when IAM is outsourced?
+
+Reference
+[1] Jana Glöckler, Johannes Sedlmeir, Muriel Frank, and Gilbert Fridgen. 2024. A Systematic Review of Identity and Access 
+Management Requirements in Enterprises and Potential Contributions of Self-Sovereign Identity. Business & Information Systems 
+Engineering 66, 4 (August 2024), 421–440. https://doi.org/10.1007/s12599-023-00830-x
+
+- MM
+
+My response to MM:
+Translating IAM Governance Requirements into Measurable Outcomes
+Thank you, Mel, for your thoughtful comments and for connecting my presentation to the work of Glöckler et al. I completely agree 
+with your observation. One reason I referenced their study in my literature review is that it demonstrates that IAM governance is 
+multidimensional, extending beyond technology to encompass security and compliance, operational processes, organizational governance, 
+and user-related requirements [1].
+To answer your question, I believe organizations should translate these broad IAM requirements into measurable governance outcomes. 
+In practice, every requirement should be mapped to four components:
+1.	A contractual vendor obligation: what the vendor is expected to deliver.
+2.	A measurable performance indicator (KPI/KRI): how success will be measured.
+3.	Objective audit evidence: how compliance will be demonstrated.
+4.	Continuous monitoring: how the organization will verify ongoing compliance throughout the project lifecycle.
+
+For example, if the requirement is identity lifecycle management: 
+•	The contract could require the vendor to deprovision terminated users within four hours of HR notification. 
+•	The KPI would measure the percentage of accounts deprovisioned within the agreed SLA, 
+•	Audit evidence would include ServiceNow workflow records, Active Directory logs, and monthly access certification reports. 
+•	Continuous monitoring would automatically alert the governance team whenever an account exceeds the approved deprovisioning 
+timeframe.
+
+Similarly, if the requirement is privileged access governance, the vendor's contractual obligation may require quarterly 
+privileged-access reviews and enforcement of the principle of least privilege. Compliance would be demonstrated through Privileged 
+Access Management (PAM) reports, access review records, and audit logs, while continuous monitoring would identify excessive 
+privileges, dormant privileged accounts, or unauthorized privilege escalation in near real time.
+
+From a project management mindset, I see this as a requirements traceability process. During project initiation and procurement, 
+governance requirements are translated into contractual obligations and security requirements. During implementation, those 
+obligations become technical controls such as RBAC, MFA, PAM, and Zero Trust. During project execution and operations, they become 
+measurable KPIs, Key Risk Indicators (KRIs), governance dashboards, and audit evidence, enabling project managers and executives to 
+continuously monitor vendor performance rather than relying solely on periodic audits.
+
+This approach is consistent with NIST Cybersecurity Framework (CSF 2.0), which encourages organizations to establish measurable 
+governance outcomes and continuously monitor cybersecurity performance rather than treating compliance as a one-time exercise [2]. 
+Likewise, NIST SP 800-161 Revision 1 recommends integrating supplier security requirements into contracts and maintaining continuous 
+oversight of third-party performance throughout the system lifecycle [3].
+
+I also believe that this is where many outsourced IAM projects either succeed or fail. Organizations sometimes include security 
+requirements in contracts but fail to define how those requirements will be measured or evidenced. Without measurable KPIs, audit 
+artifacts, and continuous monitoring, governance becomes reactive instead of proactive. By contrast, organizations that establish 
+measurable obligations, require objective evidence, and continuously monitor vendor performance are better positioned to strengthen 
+accountability, maintain regulatory compliance, and improve operational resilience.”
+
+Successful outsourced IAM governance is not achieved simply by assigning responsibilities to a vendor. It requires translating governance 
+principles into measurable contractual commitments, verifiable audit evidence, and continuous monitoring practices that provide ongoing 
+assurance throughout the project lifecycle. This integrated governance approach was one of the central conclusions of my literature review.
+Thank you again for your excellent question. I hope this provides additional insight into how organizations can operationalize IAM 
+governance and transform high-level governance principles into measurable, auditable, and continuously monitored outcomes.
+
+References
+[1] Jana Glöckler, Johannes Sedlmeir, Muriel Frank, and Gilbert Fridgen. 2024. A Systematic Review of Identity and Access Management 
+Requirements in Enterprises and Potential Contributions of Self-Sovereign Identity. Business & Information Systems Engineering 66, 4 (2024), 
+421–440. https://doi.org/10.1007/s12599-023-00830-x
+[2] National Institute of Standards and Technology (NIST). 2024. The NIST Cybersecurity Framework (CSF 2.0). U.S. Department of Commerce. 
+https://doi.org/10.6028/NIST.CSWP.29
+[3] National Institute of Standards and Technology (NIST). 2022. Cybersecurity Supply Chain Risk Management Practices for Systems and 
+Organizations (NIST Special Publication 800-161 Revision 1). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.800-161r1
+
+
+
+
+Comment and Question by GC:
+IAM governance is a dense topic to present — lots of moving parts across vendors, compliance frameworks, and security controls. Your core 
+argument came through clearly though: outsourcing transfers the operational work but not the accountability, and no single governance 
+approach is enough on its own. The Change Healthcare example you dropped in the thread was a great real-world anchor too.
+You mentioned that project managers should integrate security, compliance, and monitoring controls throughout the entire project lifecycle. 
+In practice though, governance requirements in IAM projects can be heavy — audits, access reviews, compliance checks. How should a PM balance
+that governance overhead against delivery pressure, especially in faster-moving or agile projects where the team is already stretched?
+Also, your main finding is that integration of multiple governance approaches is required — contractual, zero trust, continuous monitoring, 
+assurance frameworks all working together. But who actually owns that integration work in a real outsourced project? Is that the PM, the 
+security team, the vendor, or does it need a dedicated governance role to make it work?
+Great work!
+Looking forward to your thoughts!
+GC
+
+My response to GC:
+Integrating Governance into Project Delivery: A Shared Responsibility Model
+Thank you very much, Vin, for your thoughtful comments and questions. I appreciate your observations, particularly your point about balancing 
+governance with delivery pressure, as this is a challenge many organizations face when implementing outsourced IAM projects.
+Regarding your first question, I believe governance should not be viewed as a separate activity that slows project delivery but rather as an 
+integral part of project execution. One reason governance becomes burdensome is that organizations often introduce security reviews, compliance 
+checks, and access certifications late in the project lifecycle. Instead, project managers should adopt a "security-by-design" and 
+"governance-by-design" approach by embedding governance activities into each project phase rather than treating them as standalone deliverables. 
+This aligns with both Agile and DevSecOps principles, in which security, compliance, and quality are incorporated into iterative development 
+rather than addressed only at the end of the project. The Project Management Institute (PMI) also emphasizes tailoring governance processes 
+according to project complexity and organizational risk so that governance supports delivery rather than becoming unnecessary administrative 
+overhead [1].
+
+For example, instead of conducting a large quarterly access review after deployment, an organization could automate joiner-mover-leaver workflows, 
+privileged access reviews, and compliance reporting throughout the project. This reduces manual effort, enables continuous compliance, and allows 
+project teams to focus on delivering business value while maintaining effective governance.
+Security-wise, I do not believe the integration of governance approaches should rest solely with either the project manager, the security team, or 
+the vendor. Successful outsourced IAM governance requires a shared governance model.
+
+The project manager should coordinate governance activities, manage stakeholder communication, and ensure governance milestones are incorporated 
+into the project plan. The security and IAM teams should define security requirements, Zero Trust controls, identity governance policies, and 
+technical standards. The vendor is responsible for implementing the agreed contractual and technical controls while demonstrating compliance with 
+established service-level agreements (SLAs). Executive management and governance committees should provide strategic oversight, approve risk 
+decisions, and ensure governance objectives remain aligned with business priorities. This collaborative governance model reflects one of the 
+central findings of my literature review: outsourcing transfers operational responsibilities but not organizational accountability, thereby 
+making governance a shared responsibility among multiple stakeholders.
+
+Larger organizations may also benefit from establishing a dedicated IAM Governance or Third-Party Risk Governance function. This role can oversee 
+vendor performance, monitor compliance, coordinate audits, and ensure consistent governance across multiple projects, allowing project managers to 
+focus on project delivery while maintaining strong security and regulatory oversight. This approach is consistent with the NIST Cybersecurity 
+Framework and NIST SP 800-161 Revision 1, which emphasize clearly defined governance structures, continuous monitoring, and ongoing management of 
+third-party cybersecurity risks throughout the system lifecycle [2], [3].
+
+Most importantly, I believe successful outsourced IAM projects achieve the best outcomes when governance is integrated into day-to-day project 
+management rather than treated as an additional compliance exercise. When governance is embedded into project planning, procurement, implementation, 
+and operational monitoring, organizations can improve security, maintain regulatory compliance, and deliver projects more efficiently without 
+compromising organizational resilience.
+
+Thank you again for your excellent questions. They reinforce an important point from my research that effective outsourced IAM governance depends 
+not only on selecting the right technical controls but also on establishing clear governance structures, shared accountability, and continuous 
+collaboration among all stakeholders.
+
+References
+[10] Project Management Institute. 2021. A Guide to the Project Management Body of Knowledge (PMBOK® Guide), Seventh Edition. Project Management 
+Institute.
+[11] National Institute of Standards and Technology (NIST). 2024. The NIST Cybersecurity Framework (CSF 2.0). Gaithersburg, MD: U.S. Department of 
+Commerce. https://doi.org/10.6028/NIST.CSWP.29
+[12] National Institute of Standards and Technology (NIST). 2022. Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations 
+(NIST Special Publication 800-161 Revision 1). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.800-161r1
+
+
+
+
+Comment and Question by:
+Thank you for your presentation. I found your discussion on the different governance approaches particularly interesting.
+You explained that contractual governance, zero-trust architecture, continuous monitoring, and cybersecurity assurance each address different aspects 
+of outsourced IAM governance. If a project has limited time or resources and cannot implement all of these approaches at once, which approach do you 
+think should be prioritized first, and why?
+Thanks again for your presentation.
+regards
+QW
+
+My response to QW comment:
+Prioritizing Contractual Governance in Outsourced IAM Projects
+Thank you, QW, for your thoughtful question.
+I believe the answer depends on an organization's risk profile and business objectives. However, if a project has limited time or resources and can
+ only prioritize one governance approach initially, I would recommend starting with contractual governance.
+The reason is that contractual governance underpins all other forms of governance. Before implementing technical controls such as Zero Trust or 
+continuous monitoring, organizations should clearly define security responsibilities, service-level agreements (SLAs), compliance requirements, 
+audit rights, incident response obligations, and accountability between the client and the vendor. Without these governance mechanisms, even the most 
+advanced security technologies may not achieve the desired outcomes because responsibilities and expectations remain unclear [1]. This conclusion is 
+also consistent with the findings of my literature review, which indicate that governance should begin with clearly defined accountability structures 
+before technical controls are implemented.
+This position is further supported by the National Institute of Standards and Technology (NIST), which recommends that organizations establish 
+cybersecurity responsibilities, supplier obligations, risk management expectations, and security requirements within contracts before relying on 
+outsourced services. NIST emphasizes that effective cybersecurity supply chain risk management begins with clearly defined governance and contractual 
+controls rather than technology alone [2].
+For example, many organizations successfully implement Zero Trust technologies but still experience governance failures because vendor responsibilities, 
+privileged access reviews, or incident response procedures were not clearly defined during procurement. In these situations, the technology functions as 
+intended, but accountability gaps delay incident response, complicate regulatory reporting, and increase compliance risk.
+
+From a project management perspective, I would prioritize governance activities in the following order:
+1.	Contractual Governance – Establish accountability, security requirements, and compliance obligations.
+2.	Zero Trust Architecture – Implement least-privilege access and continuous verification.
+3.	Continuous Monitoring and IAM Metrics – Provide ongoing visibility into identity risks and control effectiveness.
+4.	Cybersecurity Assurance – Validate governance effectiveness through independent audits and continuous improvement.
+This phased approach enables organizations to build governance maturity while making the best use of limited resources. More importantly, it strengthens 
+business resilience by providing the foundation on which technical, operational, and compliance controls can be effectively managed.
+Thank you again for your excellent question. I hope this explains why I believe contractual governance should be the first priority when implementing 
+outsourced IAM governance under resource constraints.
+
+References
+[1] Ayesha Saddiqa, Muhammad Usman Shehzad, and Muhammad Mohiuddin. 2023. Effects of Contractual Governance on IT Project Performance under the Mediating 
+Role of Project Management Risk: An Emerging Market Context. Information 14, 9 (2023), 490. https://doi.org/10.3390/info14090490
+[2] National Institute of Standards and Technology (NIST). 2022. Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations (NIST 
+Special Publication 800-161 Revision 1). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.800-161r1
+
+
+
+Comment and Question by RA:
+Thank you for your presentation. You clearly highlighted the importance of governance, accountability, and security when organizations outsource 
+identity and access management. I particularly liked how you emphasized that clearly defined roles and responsibilities are essential for reducing 
+security risks and ensuring project success.
+What is the biggest challenge in maintaining accountability between the client organization and the outsourced vendor when a security incident 
+occurs, and how would you recommend addressing it?
+
+
+Response by WA:
+I hope you don't mind me answering Rukayat's question.
+I think transparency is one of the biggest challenges when a security incident occurs because it can be difficult to clearly identify who is 
+responsible. Maintaining clear communication and having an incident response plan in place can help maintain accountability between all stakeholders.
+I'm interested to hear your thoughts!!
+WA
+
+My response to WA and RA:
+Thank you, WA, for your response to Rukayat.
+Governance and Accountability in Outsourced IAM: Lessons from the Change Healthcare Cyberattack
+Beyond the incident response plan, the biggest challenge in maintaining accountability between a client organization and an outsourced IAM vendor 
+during a security incident is the lack of clearly defined governance and ownership responsibilities. While operational IAM activities such as user 
+provisioning, deprovisioning, and privileged access management may be outsourced, accountability for protecting organizational data, managing risk, 
+and ensuring regulatory compliance remains with the client organization. When responsibilities are not clearly defined, both parties may assume the 
+other is responsible, delaying incident response, remediation, and recovery. A good real-world example is the 2024 Change Healthcare cyberattack, 
+in which compromised credentials enabled attackers to access critical systems, resulting in one of the largest healthcare cyber incidents in the 
+United States. The Russian ransomware group ALPHV BlackCat encrypted and incapacitated significant portions of Change Healthcare’s functionality. 
+
+“The cyberattack on Change Healthcare in February 2024 disrupted health care operations on an unprecedented national scale, endangering patients' 
+access to care, disrupting critical clinical and eligibility operations, and threatening the solvency of the nation's provider network. It demonstrated 
+that the national consequences of cyberattacks targeting mission-critical third-party providers can be even more devastating than when hospitals or 
+health systems are attacked directly.” – America Hospital Association (AHA)
+
+This is a nation-state attack, and if you pay attention to the last sentence, it seems someone is trying to talk about a third-party provider.
+Although multiple technology providers and third parties were involved, the incident demonstrated that organizations cannot transfer accountability for 
+protecting sensitive information simply by outsourcing operational services. It also highlighted the importance of strong identity governance, continuous 
+monitoring, and executive oversight throughout the vendor relationship.
+
+To address this challenge, I believe organizations should establish governance before an incident occurs rather than reacting afterward. This includes 
+clearly defining roles and responsibilities through contracts and service-level agreements; implementing a RACI matrix for identity-related processes; 
+conducting regular security and compliance audits; performing periodic access reviews; continuously monitoring privileged accounts; and maintaining a 
+jointly tested incident response plan with the vendor. These governance mechanisms help ensure that both parties understand their responsibilities and 
+can respond quickly and effectively to a security incident.
+
+Successful outsourced IAM is not achieved by transferring responsibility to a vendor; it is achieved by building a strong governance 
+framework that combines vendor accountability, continuous monitoring, contractual obligations, and executive oversight. As highlighted in my literature 
+review, outsourcing changes who performs the operational tasks, but it does not change who is accountable for governance, compliance, and organizational 
+resilience.
+
+Thank you again for your thoughtful question. I hope my response helps clarify the governance and accountability considerations in outsourced IAM 
+environments. 
+
+You can read more on US Change Healthcare February 2024  Cyberattack  on https://www.aha.org/system/files/media/file/2025/02/Change-Healthcare-
+Cyberattack-Underscores-Urgent-Need-to-Strengthen-Cyber-Preparedness.pdf
+
+Reference
+U.S. Department of Health and Human Services (HHS). 2024. Statement on the Change Healthcare Cybersecurity Incident. https://www.aha.org/change-healthcare-cyberattack-underscores-urgent-need-strengthen-cyber-preparedness-individual-health-care-organizations-and#:~:text=
+The%20cyberattack%20on%20Change%20Healthcare,of%20the%20nation's%20provider%20network.
+
+
+
+Comment and Question by WA:
+Thank you for your presentation. Interesting topic!!
+You mentioned several risks associated with outsourcing IAM (Identity and Access Management) services. In your opinion, who should be held 
+responsible if a data breach occurs: the vendor, the organization, or both? Why?
+Also, how to ensure that the vendor is following security policies and meeting security requirements throughout the project?
+Thanks,
+WA
+
+Response to WA comment:
+Shared Responsibility, Organizational Accountability, and Continuous Governance in Outsourced IAM
+Thank you, WA, for your thoughtful questions.
+Based on both the literature and industry practice, I would argue that responsibility for a data breach in an outsourced IAM environment is often 
+shared, but accountability ultimately remains with the client organization. This aligns with one of the key findings of my review: outsourcing may 
+transfer operational responsibilities, but it does not transfer accountability for security, compliance, governance, or risk management outcomes. 
+Organizations remain responsible for demonstrating compliance with frameworks such as ISO 27001, SOC 2, GDPR, and NIST, even when IAM operations 
+are performed by a third-party provider.
+The extent of responsibility depends on the root cause of the breach. For example, if a vendor fails to implement agreed security controls, neglects 
+patch management, or mishandles privileged access, the vendor bears operational responsibility. However, if the organization failed to conduct adequate 
+due diligence, establish governance requirements, monitor vendor performance, or enforce contractual security obligations, it also shares responsibility. 
+This is why outsourced IAM is often described as a shared-responsibility model.
+Regarding your second question, organizations can ensure vendors continue to follow security policies and meet security requirements by implementing 
+strong governance mechanisms throughout the project lifecycle. These include:
+•	Clearly defined security requirements and accountability clauses within contracts and SLAs.
+•	Regular security audits and compliance assessments.
+•	Continuous monitoring of access activities and privileged accounts.
+•	Periodic access certification and entitlement reviews.
+•	Key Risk Indicators (KRIs) and Key Performance Indicators (KPIs) for vendor performance.
+•	Governance committees and scheduled security review meetings.
+•	Independent assurance activities, such as SOC reports and third-party assessments.
+•	Automated reporting and evidence collection to support compliance obligations.
+
+In my view, the most effective outsourced IAM programs are those that treat vendor management as an ongoing governance activity rather than a one-time 
+procurement decision. Strong oversight, continuous monitoring, and clearly defined accountability structures help ensure that security requirements 
+remain effective throughout the project lifecycle while supporting organizational resilience and regulatory compliance.
+Thank you again for your excellent questions.
+Samuel Adeola
+
+
+
+Comment and Question by TS:
+Sam, thanks for your presentation. With reference to Outsource IAM, some challenges, from experienced has to do with access Sprawl. Where user gain 
+access to systems overtime, due to changing of role or when they leave, but access is not revoked, making organization vulnerable. I thought to mention 
+that when outsourcing IAM, we should select companies that automate security systems, thereby making zero trust effective. what are your thoughts?
+
+Response to TS comment:
+Managing Access Sprawl Through Governance, Automation, and Zero Trust
+Thank you for your insightful comment. I completely agree that access sprawl is a major governance and security risk in outsourced IAM environments. Access 
+sprawl occurs when users accumulate permissions over time due to role changes, temporary assignments, contractor engagements, or employee exits, and those 
+permissions are not promptly reviewed or revoked. This directly connects to the issue highlighted in my paper: outsourced IAM can separate operational 
+control from organizational accountability, creating risks such as delayed deprovisioning, excessive privileged access, weak segregation of duties, and 
+incomplete audit evidence. 
+
+Your point about selecting vendors with automation capability is very important. However, I would add that automation alone is not enough. The vendor 
+should also demonstrate strong identity governance, role-based access control, automated joiner-mover-leaver workflows, privileged access monitoring, 
+access certification, audit reporting, and alignment with Zero Trust. In other words, automation should support governance rather than replace 
+governance.
+
+This is important because identity-related attacks remain a major global threat. Microsoft reported that password-based attacks accounted for more than 
+99% of the over 600 million daily identity attacks, and that it blocked about 7,000 password attacks per second over the past year. CrowdStrike also 
+reported that in 2024, 79% of detections were malware-free, indicating that attackers increasingly rely on valid credentials and hands-on keyboard 
+activity rather than traditional malware. CrowdStrike also found that valid account abuse was the primary initial access method in 35% of cloud incidents 
+in the first half of 2024. 
+
+Business impact analysis shows that poor IAM governance can affect more than just security. It can increase audit findings, regulatory exposure, incident 
+response costs, operational disruption, and reputational risk. IBM reported that the global average cost of a data breach reached USD 4.88 million in 2024, 
+while organizations using IAM solutions saved up to USD 223,000 annually, and those using AI and automation saved an average of USD 1.9 million compared 
+with organizations that did not. 
+
+For these reasons, I believe organizations should evaluate outsourced IAM providers not only on their automation capabilities but also on their ability 
+to support strong governance, continuous monitoring, timely deprovisioning, access reviews, privileged access oversight, and compliance reporting. These 
+capabilities help ensure that access remains appropriate, risks are identified early, and security controls remain effective over time.
+Ultimately, access sprawl is not just an IAM problem it is a governance, risk management, and business resilience issue. Addressing it effectively 
+requires a balanced approach that combines automation, Zero Trust principles, continuous monitoring, vendor accountability, and strong management 
+oversight to support both cybersecurity objectives and long-term organizational resilience.
+
+References
+https://www.crowdstrike.com/en-us/blog/crowdstrike-2025-global-threat-report-findings/
+https://www.ibm.com/think/insights/cost-of-a-data-breach-2024-financial-industry
+https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-2024

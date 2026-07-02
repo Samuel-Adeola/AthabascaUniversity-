@@ -4,10 +4,13 @@ Discussions on Real-Life Project Management Experiences
 Weight: 15% of your final grade
 This assignment comprises two main tasks:
 1.	Write a posting in the Assignment 4 Discussion that discusses a real-life project management experience (50 marks).
-2.	Discuss your peers’ real-life project management experiences and answer questions/comments from your peers on your real-life project management experience in the Assignment 4 Discussion (50 marks).
+2.	Discuss your peers’ real-life project management experiences and answer questions/comments from your peers on your real-life project management 
+experience in the Assignment 4 Discussion (50 marks).
 
 Writing About a Real-Life Project Management Experience
-The purpose of this assignment is to share and discuss real-life project management experiences. As a first step in sharing a real-life project management experience, you need to find an example of an information technology project that went well or one that did not go so well. This could be either a project that you have been involved in and where you share your own experience with your peers, or it could be a project that you know of or have read about.
+The purpose of this assignment is to share and discuss real-life project management experiences. As a first step in sharing a real-life project management 
+experience, you need to find an example of an information technology project that went well or one that did not go so well. This could be either a project 
+that you have been involved in and where you share your own experience with your peers, or it could be a project that you know of or have read about.
 In your posting, you must:
 1.	provide a brief description of the scope of the project;
 2.	explain the organizational background and how the project was implemented;
@@ -16,64 +19,136 @@ In your posting, you must:
 Make sure you post your real-life project management experience by the end of Week 9 at the latest.
 
 Discussion of Real-Life Project Management Experiences
-Towards the end of Week 9 and during Weeks 10 and 11, discussions of all students' postings will take place. These discussions include comments and questions to your peers’ real-life project management experiences as well as answers and comments to your peers’ questions and comments on your real-life project management experience.
+Towards the end of Week 9 and during Weeks 10 and 11, discussions of all students' postings will take place. These discussions include comments and questions 
+to your peers’ real-life project management experiences as well as answers and comments to your peers’ questions and comments on your real-life project management 
+experience.
 You are required to write at least four postings in this part of the assignment. These postings can be:
 •	comments or questions to your peers’ real-life project management experiences; and
 •	answers and comments to your peers’ questions and comments on your real-life project management experience.
 Make sure that your comments, questions and answers are posted at the latest by the end of Week 11!
 
 Grading Criteria
-The posting of your real-life project management experience will be graded based on the completeness and clarity of the example, and is worth 50% of the assignment grade.
-The discussions about your peers’ real-life project management experiences and answers to your peers’ questions and comments on your real-life project management experience will be graded based on the number and meaningfulness of your postings, and is worth 50% of the assignment grade.
+The posting of your real-life project management experience will be graded based on the completeness and clarity of the example, and is worth 50% of the 
+assignment grade.
+The discussions about your peers’ real-life project management experiences and answers to your peers’ questions and comments on your real-life project management 
+experience will be graded based on the number and meaningfulness of your postings, and is worth 50% of the assignment grade.
 
 
 
 Enterprise Business Continuity Plan (BCP) Implementation Project
 
-One of the most rewarding information technology projects I have participated in was the implementation of an Enterprise Business Continuity Plan (BCP) for a medium-sized Canadian organization that relied heavily on Microsoft 365, cloud-based business applications, enterprise resource planning (ERP), customer relationship management (CRM), virtual servers, and on-premises network infrastructure. As a member of the Information Security and Risk Management team, I worked closely with the project manager, IT infrastructure team, business process owners, and senior management throughout the project lifecycle. The project provided valuable experience in applying project management principles to improve organizational resilience while balancing business priorities, technical requirements, stakeholder expectations, and project constraints.
-The initiative was launched after an internal risk assessment identified that, although the organization had invested significantly in cybersecurity technologies, it lacked a formally documented, tested, and enterprise-wide Business Continuity Plan. Existing recovery procedures were inconsistent across departments, and there was no common understanding of recovery priorities or responsibilities during a major disruption. Senior management approved the project to reduce operational risk and improve the organization's ability to maintain critical services during events such as ransomware attacks, prolonged power outages, cloud service disruptions, hardware failures, or natural disasters.
+One of the most rewarding information technology projects I have participated in was the implementation of an Enterprise Business Continuity Plan (BCP) for a medium-sized 
+Canadian organization that relied heavily on Microsoft 365, cloud-based business applications, enterprise resource planning (ERP), customer relationship management (CRM), 
+virtual servers, and on-premises network infrastructure. As a member of the Information Security and Risk Management team, I worked closely with the project manager, 
+IT infrastructure team, business process owners, and senior management throughout the project lifecycle. The project provided valuable experience in applying project 
+management principles to improve organizational resilience while balancing business priorities, technical requirements, stakeholder expectations, and project constraints.
+The initiative was launched after an internal risk assessment identified that, although the organization had invested significantly in cybersecurity technologies, it lacked 
+a formally documented, tested, and enterprise-wide Business Continuity Plan. Existing recovery procedures were inconsistent across departments, and there was no common 
+understanding of recovery priorities or responsibilities during a major disruption. Senior management approved the project to reduce operational risk and improve the 
+organization's ability to maintain critical services during events such as ransomware attacks, prolonged power outages, cloud service disruptions, hardware failures, or 
+natural disasters.
 
-The objective of the project was to design, implement, test, and obtain executive approval for an enterprise Business Continuity Plan that aligned business priorities with information technology recovery capabilities. The project was planned over an eighteen-week schedule and included clearly defined deliverables, milestones, governance activities, and stakeholder reviews.
-The project scope included conducting a Business Impact Analysis (BIA), identifying mission-critical business processes, assessing business and technology risks, identifying dependencies between business operations and IT systems, establishing Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs), reviewing backup and restoration capabilities, documenting business continuity and disaster recovery procedures, developing crisis communication processes, conducting tabletop exercises, training business representatives, and preparing the final Business Continuity Plan for executive approval.
-My responsibilities included participating in Business Impact Analysis workshops, interviewing business process owners, documenting recovery requirements, validating system dependencies, coordinating project meetings, maintaining project documentation, monitoring action items and project milestones, supporting tabletop exercises, and assisting with the preparation of the final continuity documentation. Working directly with both business and technical stakeholders gave me a practical understanding of how project management supports operational resilience beyond the implementation of technical controls.
+The objective of the project was to design, implement, test, and obtain executive approval for an enterprise Business Continuity Plan that aligned business priorities with 
+information technology recovery capabilities. The project was planned over an eighteen-week schedule and included clearly defined deliverables, milestones, governance 
+activities, and stakeholder reviews.
+The project scope included conducting a Business Impact Analysis (BIA), identifying mission-critical business processes, assessing business and technology risks, identifying 
+dependencies between business operations and IT systems, establishing Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs), reviewing backup and restoration 
+capabilities, documenting business continuity and disaster recovery procedures, developing crisis communication processes, conducting tabletop exercises, training business 
+representatives, and preparing the final Business Continuity Plan for executive approval.
+My responsibilities included participating in Business Impact Analysis workshops, interviewing business process owners, documenting recovery requirements, validating system 
+dependencies, coordinating project meetings, maintaining project documentation, monitoring action items and project milestones, supporting tabletop exercises, and assisting 
+with the preparation of the final continuity documentation. Working directly with both business and technical stakeholders gave me a practical understanding of how project 
+management supports operational resilience beyond the implementation of technical controls.
 
-The organization depended on technology to support nearly every business function, including customer services, finance, human resources, procurement, operations, and remote collaboration. Although departments had developed individual recovery procedures over time, there was no centralized framework defining recovery priorities, communication procedures, escalation paths, or accountability during a disruptive event. Senior management recognized that the absence of a coordinated continuity program could significantly affect customer service, regulatory compliance, financial operations, and the organization's reputation.
-The project was sponsored by the Chief Information Officer and governed by a steering committee consisting of leaders from Information Technology, Information Security, Operations, Finance, Human Resources, Facilities Management, and Corporate Communications. During the first two weeks, the project manager developed the project charter, stakeholder register, communication plan, risk register, work breakdown structure, project schedule, and milestone tracker. These governance documents established clear project objectives, defined stakeholder responsibilities, and provided a structured framework for monitoring project progress.
-During Weeks 3 through 6, the project team conducted Business Impact Analysis workshops with business unit managers. Rather than beginning with technology, the discussions focused on identifying critical business services, acceptable downtime, manual workarounds, operational dependencies, and the business consequences of service interruptions. The results were then used to establish realistic recovery priorities and determine appropriate Recovery Time Objectives and Recovery Point Objectives for critical systems.
-One of the most significant challenges occurred during this phase. Finance considered the ERP platform the highest-priority recovery need due to payroll processing and financial reporting requirements. At the same time, Customer Services argued that restoring the CRM platform should take precedence, as prolonged customer service interruptions would immediately affect client satisfaction and revenue. Rather than allowing departmental preferences to influence recovery priorities, the project manager facilitated additional Business Impact Analysis workshops using agreed business impact criteria, including operational impact, financial loss, regulatory obligations, customer service impact, and maximum tolerable downtime. This structured decision-making process enabled stakeholders to reach consensus while maintaining confidence in the project's governance process.
-Between Weeks 7 and 11, the project team developed recovery strategies, reviewed backup and restoration procedures, documented disaster recovery runbooks, validated third-party service dependencies, and prepared crisis communication procedures. Weeks 12 through 15 focused on tabletop exercises that simulated ransomware attacks, prolonged network outages, and cloud service disruptions. These exercises allowed technical teams and business representatives to validate recovery procedures, clarify roles and responsibilities, identify documentation gaps, and improve communication before implementation. The final three weeks were dedicated to employee awareness sessions, executive review, formal approval of the Business Continuity Plan, project closure, and documentation of lessons learned.
-Throughout the project, weekly status meetings were held with the steering committee to review progress, discuss project risks, approve change requests, monitor milestones, and resolve issues that could affect the project schedule. Maintaining regular communication with stakeholders proved essential in keeping the project aligned with business objectives and preventing unnecessary scope changes.
+The organization depended on technology to support nearly every business function, including customer services, finance, human resources, procurement, operations, and remote 
+collaboration. Although departments had developed individual recovery procedures over time, there was no centralized framework defining recovery priorities, communication 
+procedures, escalation paths, or accountability during a disruptive event. Senior management recognized that the absence of a coordinated continuity program could significantly 
+affect customer service, regulatory compliance, financial operations, and the organization's reputation.
+The project was sponsored by the Chief Information Officer and governed by a steering committee consisting of leaders from Information Technology, Information Security, 
+Operations, Finance, Human Resources, Facilities Management, and Corporate Communications. During the first two weeks, the project manager developed the project charter, 
+stakeholder register, communication plan, risk register, work breakdown structure, project schedule, and milestone tracker. These governance documents established clear 
+project objectives, defined stakeholder responsibilities, and provided a structured framework for monitoring project progress.
+During Weeks 3 through 6, the project team conducted Business Impact Analysis workshops with business unit managers. Rather than beginning with technology, the discussions 
+focused on identifying critical business services, acceptable downtime, manual workarounds, operational dependencies, and the business consequences of service interruptions. 
+The results were then used to establish realistic recovery priorities and determine appropriate Recovery Time Objectives and Recovery Point Objectives for critical systems.
+One of the most significant challenges occurred during this phase. Finance considered the ERP platform the highest-priority recovery need due to payroll processing and 
+financial reporting requirements. At the same time, Customer Services argued that restoring the CRM platform should take precedence, as prolonged customer service interruptions 
+would immediately affect client satisfaction and revenue. Rather than allowing departmental preferences to influence recovery priorities, the project manager facilitated 
+additional Business Impact Analysis workshops using agreed business impact criteria, including operational impact, financial loss, regulatory obligations, customer service 
+impact, and maximum tolerable downtime. This structured decision-making process enabled stakeholders to reach consensus while maintaining confidence in the project's governance 
+process.
+Between Weeks 7 and 11, the project team developed recovery strategies, reviewed backup and restoration procedures, documented disaster recovery runbooks, validated third-party 
+service dependencies, and prepared crisis communication procedures. Weeks 12 through 15 focused on tabletop exercises that simulated ransomware attacks, prolonged network outages, 
+and cloud service disruptions. These exercises allowed technical teams and business representatives to validate recovery procedures, clarify roles and responsibilities, identify 
+documentation gaps, and improve communication before implementation. The final three weeks were dedicated to employee awareness sessions, executive review, formal approval of 
+the Business Continuity Plan, project closure, and documentation of lessons learned.
+Throughout the project, weekly status meetings were held with the steering committee to review progress, discuss project risks, approve change requests, monitor milestones, and 
+resolve issues that could affect the project schedule. Maintaining regular communication with stakeholders proved essential in keeping the project aligned with business objectives 
+and preventing unnecessary scope changes.
 
-I consider the project highly successful because it achieved its objectives within the planned schedule and approved budget while significantly improving the organization's operational resilience. By project completion, every critical business function had documented continuity procedures; recovery priorities had been approved by business owners; recovery objectives had been formally documented; backup restoration procedures had been validated; and crisis communication responsibilities had been clearly assigned.
-The project also strengthened collaboration between business units and Information Technology. Before the project, many employees viewed business continuity as solely an IT responsibility. Through workshops, stakeholder meetings, and tabletop exercises, business leaders developed a greater appreciation for their role in maintaining organizational resilience. The testing exercises also identified several weaknesses, including outdated contact information, undocumented manual workarounds, and inconsistent recovery documentation, which were corrected before the Business Continuity Plan was formally approved.
-The project's success was reflected not only in the timely completion of its deliverables but also in its ability to strengthen the organization's operational resilience. By the end of the project, management had confidence in the continuity strategy, business units clearly understood their recovery responsibilities, and the organization was significantly better prepared to respond to and recover from major disruptions.
+I consider the project highly successful because it achieved its objectives within the planned schedule and approved budget while significantly improving the organization's 
+operational resilience. By project completion, every critical business function had documented continuity procedures; recovery priorities had been approved by business owners; 
+recovery objectives had been formally documented; backup restoration procedures had been validated; and crisis communication responsibilities had been clearly assigned.
+The project also strengthened collaboration between business units and Information Technology. Before the project, many employees viewed business continuity as solely an IT 
+responsibility. Through workshops, stakeholder meetings, and tabletop exercises, business leaders developed a greater appreciation for their role in maintaining organizational 
+resilience. The testing exercises also identified several weaknesses, including outdated contact information, undocumented manual workarounds, and inconsistent recovery 
+documentation, which were corrected before the Business Continuity Plan was formally approved.
+The project's success was reflected not only in the timely completion of its deliverables but also in its ability to strengthen the organization's operational resilience. By 
+the end of the project, management had confidence in the continuity strategy, business units clearly understood their recovery responsibilities, and the organization was 
+significantly better prepared to respond to and recover from major disruptions.
 
-Several factors contributed to the project's success. First, strong executive sponsorship ensured that business continuity remained an organizational priority and encouraged active participation from every department. Second, involving stakeholders early in the Business Impact Analysis ensured that recovery priorities reflected actual business requirements rather than technical assumptions.
-Third, effective project management practices played a significant role in maintaining project control. The project manager maintained a detailed schedule, monitored risks through a risk register, tracked issues and milestones, managed stakeholder expectations through regular communication, and ensured that approved deliverables remained aligned with project objectives. These governance activities minimized delays and helped the project remain within scope.
-Fourth, continuity testing significantly improved the quality of the final deliverable. The tabletop exercises demonstrated that a Business Continuity Plan is valuable only when employees understand their responsibilities and recovery procedures have been validated through realistic scenarios. Testing also strengthened interdepartmental collaboration and increased management's confidence in the organization's ability to respond effectively during a major disruption.
-Reflecting on this experience, I realized that business continuity planning is much more than developing documentation or recovering technology after an outage. It is a project that requires leadership, stakeholder engagement, governance, communication, and continuous improvement. Before participating in this implementation, I viewed business continuity primarily as a technical recovery activity. Working alongside business leaders changed my perspective and demonstrated that organizational resilience depends equally on sound project management and effective cross-organizational collaboration. This experience strengthened both my project management capabilities and my understanding of how business continuity planning supports long-term organizational success.
+Several factors contributed to the project's success. First, strong executive sponsorship ensured that business continuity remained an organizational priority and encouraged 
+active participation from every department. Second, involving stakeholders early in the Business Impact Analysis ensured that recovery priorities reflected actual business 
+requirements rather than technical assumptions.
+Third, effective project management practices played a significant role in maintaining project control. The project manager maintained a detailed schedule, monitored risks 
+through a risk register, tracked issues and milestones, managed stakeholder expectations through regular communication, and ensured that approved deliverables remained aligned 
+with project objectives. These governance activities minimized delays and helped the project remain within scope.
+Fourth, continuity testing significantly improved the quality of the final deliverable. The tabletop exercises demonstrated that a Business Continuity Plan is valuable only 
+when employees understand their responsibilities and recovery procedures have been validated through realistic scenarios. Testing also strengthened interdepartmental 
+collaboration and increased management's confidence in the organization's ability to respond effectively during a major disruption.
+Reflecting on this experience, I realized that business continuity planning is much more than developing documentation or recovering technology after an outage. It is a project 
+that requires leadership, stakeholder engagement, governance, communication, and continuous improvement. Before participating in this implementation, I viewed business 
+continuity primarily as a technical recovery activity. Working alongside business leaders changed my perspective and demonstrated that organizational resilience depends equally 
+on sound project management and effective cross-organizational collaboration. This experience strengthened both my project management capabilities and my understanding of how 
+business continuity planning supports long-term organizational success.
 References
 [1] Project Management Institute. A Guide to the Project Management Body of Knowledge (PMBOK® Guide), 7th ed. Newtown Square, PA: Project Management Institute, 2021.
-[2] Marianne Swanson, Pauline Bowen, Amy Wohl Phillips, Dean Gallup, and David Lynes. Contingency Planning Guide for Federal Information Systems. NIST Special Publication 800-34 Revision 1. Gaithersburg, MD: National Institute of Standards and Technology, 2010.
+[2] Marianne Swanson, Pauline Bowen, Amy Wohl Phillips, Dean Gallup, and David Lynes. Contingency Planning Guide for Federal Information Systems. NIST Special Publication 
+800-34 Revision 1. Gaithersburg, MD: National Institute of Standards and Technology, 2010.
 [3] International Organization for Standardization. ISO 22301:2019 Security and Resilience Business Continuity Management Systems Requirements. Geneva, Switzerland: ISO, 2019.
 
 
 Comments and Questions:
 Comment 1:
 Hi,
-Thank you for sharing your experience. Your project clearly shows that business continuity planning is not only an IT recovery activity but also an organizational project requiring input from many business areas.
-One point that stood out to me was the conflict between Finance and Customer Services when deciding whether ERP or CRM should receive the higher recovery priority. I think this is a good example of why Business Impact Analysis is important. Without agreed criteria such as financial impact, customer impact, regulatory obligations, and maximum tolerable downtime, recovery priorities could easily become based on departmental preference rather than overall business risk.
-I also appreciated your discussion of tabletop exercises. In many projects, documentation can give the impression that the organization is prepared, but testing is what reveals whether people actually understand their roles and whether the recovery procedures are realistic.
-My question is: after the tabletop exercises identified gaps such as outdated contact information and undocumented manual workarounds, did the team establish a process to keep the Business Continuity Plan updated regularly, or was the update process handled primarily as part of this project?
+Thank you for sharing your experience. Your project clearly shows that business continuity planning is not only an IT recovery activity but also an organizational project 
+requiring input from many business areas.
+One point that stood out to me was the conflict between Finance and Customer Services when deciding whether ERP or CRM should receive the higher recovery priority. I think 
+this is a good example of why Business Impact Analysis is important. Without agreed criteria such as financial impact, customer impact, regulatory obligations, and maximum 
+tolerable downtime, recovery priorities could easily become based on departmental preference rather than overall business risk.
+I also appreciated your discussion of tabletop exercises. In many projects, documentation can give the impression that the organization is prepared, but testing is what 
+reveals whether people actually understand their roles and whether the recovery procedures are realistic.
+My question is: after the tabletop exercises identified gaps such as outdated contact information and undocumented manual workarounds, did the team establish a process to 
+keep the Business Continuity Plan updated regularly, or was the update process handled primarily as part of this project?
 Regards,
 QW
 
 My Response:
 Hello QW,
-Thank you for taking the time to read my post and for raising that question. I'm glad you highlighted the role of the Business Impact Analysis and the tabletop exercises because they were two of the most valuable parts of the project. They helped move the discussion beyond technical recovery and ensured that business decisions were based on operational priorities rather than individual departmental preferences.
-To answer your question, the update process did not conclude with the project's completion. One of the project's key deliverables was establishing an ongoing governance process to ensure the Business Continuity Plan remained current and effective. During project closure, management approved a maintenance schedule that included annual reviews of the BCP, updates following significant organizational or technology changes, and periodic tabletop exercises to validate recovery procedures. Each business unit was also responsible for regularly reviewing its recovery procedures and contact information, while the Information Security and Risk Management team coordinated the overall review process.
-The findings from the tabletop exercises, including outdated contact information and undocumented manual workarounds, were entered into an action log and assigned to the appropriate business owners for remediation before the project was formally closed. We also recommended that future internal audits and risk assessments include periodic reviews of the Business Continuity Plan to ensure it continued to reflect changes in business processes, technology, regulatory requirements, and emerging risks.
-One of the key takeaways from this project was realizing that a Business Continuity Plan should never be viewed as a completed document to be put aside. As the organization changes, whether through new technologies, business processes, or emerging risks, the plan also needs to evolve. Regular reviews, testing, and updates are essential to ensure it remains practical and effective when it is needed most.
+Thank you for taking the time to read my post and for raising that question. I'm glad you highlighted the role of the Business Impact Analysis and the tabletop exercises 
+because they were two of the most valuable parts of the project. They helped move the discussion beyond technical recovery and ensured that business decisions were based 
+on operational priorities rather than individual departmental preferences.
+To answer your question, the update process did not conclude with the project's completion. One of the project's key deliverables was establishing an ongoing governance 
+process to ensure the Business Continuity Plan remained current and effective. During project closure, management approved a maintenance schedule that included annual 
+reviews of the BCP, updates following significant organizational or technology changes, and periodic tabletop exercises to validate recovery procedures. Each business 
+unit was also responsible for regularly reviewing its recovery procedures and contact information, while the Information Security and Risk Management team coordinated 
+the overall review process.
+The findings from the tabletop exercises, including outdated contact information and undocumented manual workarounds, were entered into an action log and assigned to the 
+appropriate business owners for remediation before the project was formally closed. We also recommended that future internal audits and risk assessments include periodic 
+reviews of the Business Continuity Plan to ensure it continued to reflect changes in business processes, technology, regulatory requirements, and emerging risks.
+One of the key takeaways from this project was realizing that a Business Continuity Plan should never be viewed as a completed document to be put aside. As the organization 
+changes, whether through new technologies, business processes, or emerging risks, the plan also needs to evolve. Regular reviews, testing, and updates are essential to 
+ensure it remains practical and effective when it is needed most.
 I hope this answers your question. Thank you again for your thoughtful question and for contributing to the discussion.
 Regards
 
@@ -87,10 +162,18 @@ WA
 
 Response:
 Thank you, WA, for your comment and question.
-Determining the recovery priority for systems was one of the most important and challenging aspects of the project. As I mentioned in my original post, different business units initially had competing priorities. For example, Finance considered the ERP system the highest priority because of its role in payroll processing and financial reporting, while Customer Services believed the CRM platform should be restored first due to its direct impact on customer support and revenue.
-Rather than allowing departmental preferences to drive the decision, the project manager facilitated additional Business Impact Analysis (BIA) workshops involving representatives from each business unit. Together, we evaluated objective criteria such as operational impact, financial consequences, regulatory obligations, customer service impact, system dependencies, and the maximum tolerable period of disruption. This structured approach enabled stakeholders to reach consensus on the recovery sequence based on business impact rather than individual opinions.
-The BIA findings were then used to establish Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs) for each critical system, ensuring that recovery priorities aligned with the organization's operational needs and continuity objectives.
-This experience reinforced the importance of involving both business and IT stakeholders in continuity planning. While IT teams understand the technical dependencies, business leaders provide the operational context needed to make informed recovery decisions. Bringing both perspectives together resulted in a more practical and effective Business Continuity Plan.
+Determining the recovery priority for systems was one of the most important and challenging aspects of the project. As I mentioned in my original post, different business 
+units initially had competing priorities. For example, Finance considered the ERP system the highest priority because of its role in payroll processing and financial reporting, 
+while Customer Services believed the CRM platform should be restored first due to its direct impact on customer support and revenue.
+Rather than allowing departmental preferences to drive the decision, the project manager facilitated additional Business Impact Analysis (BIA) workshops involving representatives 
+from each business unit. Together, we evaluated objective criteria such as operational impact, financial consequences, regulatory obligations, customer service impact, system 
+dependencies, and the maximum tolerable period of disruption. This structured approach enabled stakeholders to reach consensus on the recovery sequence based on business impact 
+rather than individual opinions.
+The BIA findings were then used to establish Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs) for each critical system, ensuring that recovery priorities 
+aligned with the organization's operational needs and continuity objectives.
+This experience reinforced the importance of involving both business and IT stakeholders in continuity planning. While IT teams understand the technical dependencies, business 
+leaders provide the operational context needed to make informed recovery decisions. Bringing both perspectives together resulted in a more practical and effective Business 
+Continuity Plan.
 Thank you
 
 
